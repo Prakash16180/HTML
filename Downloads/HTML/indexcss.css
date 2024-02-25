@@ -1,0 +1,136 @@
+body{
+    background-color: #202124;
+}
+
+#links{
+    text-align: right;
+    padding-right: 20px;
+    margin-top: 20px;
+
+}
+
+a:link, a:visited {
+    color: white;
+    text-align: right;
+    text-decoration: none;
+    font-family:'arial';
+    font-size: 13px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+#foo{
+    text-align:center;
+    font-family:sans-serif;
+    font-size: 14px;
+    line-height:27px;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 0px 4px;
+    padding: 0px 16px;
+}
+
+input[type=text] {
+    margin-top: -4px;
+    padding-left: 25px;
+    background-color:#202124;
+    border-style: solid;
+    border-width: 1.4px;
+    border-color: #5f6368;
+    border-radius: 24px;
+    line-height: 41px; 
+    cursor: text;
+}
+
+input[type=text]:hover {
+    background-color: #303134;
+    border-style: solid;
+    border-color:#303134;
+}
+
+
+
+
+textarea:focus,input:focus {
+    outline: none ;
+    background-color: #303134;
+    border-color: #303134;
+    border-collapse: separate;
+}
+
+
+input, select, textarea{
+    color: #E8EAED;
+    font-size: medium;
+}
+
+input[type=submit] {
+    font-size: 14px;
+    background-color: #303134;
+    display: inline-block;
+    height: 36px;
+    margin-top:2.5px;
+    padding-bottom: 0px;
+    cursor: pointer;
+    text-decoration: none;
+    border-style: solid;
+    border-color:#303134 ;
+    border-radius: 4px;
+    margin-right: 8.0px;
+}
+
+#gs{
+    width: 127px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#ifl{
+    padding-left: 1.3px;
+    padding-right: 0px;
+    width: 142px;
+}
+
+#gs:hover, #ifl:hover {
+    border-color: #5f6368;
+    border-width: 1px;
+    
+}
+
+input[value='Google Search'],
+input[value="I'm Feeling Lucky"] {
+    color: #e8eaed;
+    
+}
+
+#langs{
+    text-align: center;
+    color: #bdc1c6;
+    font-family:sans-serif;
+    margin-top: 30px;
+    margin-bottom: 167px;
+}
+
+pre{
+    font-family: sans-serif;
+    font-size: small;
+}
+
+#footer{
+    color: #9aa0a6;
+    height: 77px;
+    background-color: #171717;
+    font-family: sans-serif;
+    padding-top: 16px;
+    padding-left: 28px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -100px;
+}
+
+#hindi{
+    color:#8ab4f8;
+}

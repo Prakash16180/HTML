@@ -1,0 +1,157 @@
+body{
+    background-color: #202124;
+}
+
+#logo{
+    margin-top: 8px;
+    margin-left: 8.5px;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+h3{
+    font-family: arial;
+    font-weight: 400;
+    font-size: 20px;
+    color: #f28b82;
+    margin: 34px 0px 20px 37px;
+}
+
+.heading{
+    color: rgb(232, 234, 237);
+    font-family: arial;
+    margin:20px 0px 10px 37px;
+}
+
+
+pre{
+    color: #babec3;
+    font-family: arial;
+    font-size: 13px ;
+    margin-left: 37px;
+    margin-bottom: -11px;
+}
+
+pre:hover, h3:hover, .heading:hover{
+    cursor: default;
+}
+
+input[type='text']{
+    background-color: #202124;
+    color: white;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #5e6166;
+    border-radius: 1px;
+    line-height: 25px;
+}
+
+input[id='lists']{
+    background-color: #202124;
+    border: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #5e6166;
+    border-radius: 2px;
+    line-height: 25px;
+    margin-bottom: 1px;
+}
+
+input[id='lists']:hover{
+    border-color: #C6C6C6;
+    cursor: default;
+}
+
+input[id='lists']:visited{
+    border-color: #5096F8;
+}
+
+::placeholder{
+    color: #bdc1c6;
+    font-family: arial;
+    padding: 5.5px;
+    font-size: 11px;
+    font-weight: 790;
+    letter-spacing: 0.2px;
+}
+
+a{
+    color:#8AB4F8;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:visited{
+    color:#C58AF9;
+}
+
+#button{
+    margin: 11px 0px -3px 49%;
+    background-color: #8AB4F8;
+    font-family: arial;
+    font-size:11px;
+    font-weight: 700;
+    padding-top: 1px;
+    height: 29px;
+    width: 120px;
+    border: none;
+    border-radius: 2px;
+}
+
+#button:hover{
+    border: solid 1px;
+    border-color: #2f5bb7;
+    background-color: #aecbfa;
+}
+
+p{
+    color: #babec3;
+    font-family: arial;
+    margin-left: 37px;
+    margin-top: 23px;
+}
+
+#links{
+    color: #8AB4F8;
+    margin-left: 37px;
+    margin-bottom: -50px;
+    font-family: arial;
+    font-size: 13px;
+}
+
+#links:visited{
+    color: #C58AF9;
+}
+
+footer{
+    font-family: arial;
+    font-size: medium;
+    background-color: #171717;
+    height: 85px;
+    color: #9aa0a6;
+    margin: 47px 0px -10px -7px;
+    padding-top: 25px;
+    padding-left: 44px;
+}
+
+#foo{
+    text-decoration: none;
+    color: #999DA2;
+    font-family:arial;
+    font-size: 15px;
+}
+
+#foo:hover{
+    color: #bdc1c6;
+}
+
+footer:hover{
+    cursor: default;
+}
+

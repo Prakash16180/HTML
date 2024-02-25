@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hover</title>
+        <style>
+            button {
+                background-color: orange;
+                width: 200px;
+                height: 40px;
+                font-size: 24px;
+            }
+
+            button:hover {
+                background-color: red;
+            }
+        </style>
+        <script>
+
+            function hello() {
+                const heading = document.querySelector("h1");
+                if(heading.innerHTML === "Hello!"){
+                    heading.innerHTML = "Goodbye!";
+                }
+                else{
+                    heading.innerHTML = "Hello!";
+                }
+            }
+
+        </script>
+    </head>
+
+    <body>
+        <h1>
+            Hello!
+        </h1>
+        <button onclick="hello()">Click Here!</button>
+    </body>
+</html>

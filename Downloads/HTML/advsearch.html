@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="advsearch.css">
+    </head>
+
+    <body>
+            
+        <img id="logo" src="Screenshot (225).png" alt="logo" width="79px" onclick="window.location.href='index.html';">
+
+        <h3>Advanced Search</h3>
+
+        <hr style=" text-align: right; height:1px; opacity: 95%; border-width:0;color:gray;background-color:#3c4043; margin-top: 25px; margin-left: -8px; margin-right: -8px;"> 
+        <br>
+
+        <p class="heading">Find pages with...</p>
+
+
+        <form action="https://www.google.co.in/search">
+            
+            <p> <pre>all these words:                          <input type="text" name="as_q" size="80" ></pre> </p>
+            <p> <pre>this exact word or phrase:          <input type="text" name="as_epq" size="80" ></pre> </p>
+            <p> <pre>any of these words:                    <input type="text" name="as_oq" size="80" ></pre> </p>
+            <p> <pre>none of these words:                  <input type="text" name="as_eq" size="80" ></pre> </p>
+            <p> <pre>numbers ranging from:               <input type="text" name="as_nlo" size="34" >     to     <input type="text" name="as_nhi" size="34"></pre> </p>
+            
+
+            <hr style="height:0.1px; text-align: right; border-width:0;color:gray;background-color:#3c4043; margin-top: 40px; margin-right: 190px; margin-left: 37px;"> 
+
+            <p class="heading">Then narrow your results</p>
+            <p class="heading" style="margin-top: -10px; margin-bottom: -19px">by...</p>
+
+        
+            <p> <pre>language:                                   <input id="lists" name="lr" list="any language" placeholder="any language" size="80"></pre> </p>
+            <datalist id="any language">
+                <option>any language</option>
+                <option>Afrikaans</option>
+                <option>Arabic</option>
+                <option>Armenian</option>
+                <option>Belarusian</option>
+                <option>Bulgarian</option>
+                <option>Catalan</option>
+            </datalist>
+
+            <p> <pre>region:                                        <input id="lists" name="cr" list="any region" placeholder="any region" size="80"></pre> </p>
+            <datalist id="any region">
+                <option>any region</option>
+                <option>Afrikaans</option>
+                <option>Arabic</option>
+                <option>Armenian</option>
+                <option>Belarusian</option>
+                <option>Bulgarian</option>
+                <option>Catalan</option>
+            </datalist>
+
+            <p> <pre>last update:                                <input id="lists" name="as_qdr" list="anytime" placeholder="anytime" size="80"></pre> </p>
+            <datalist id="anytime">
+                <option>anytime</option>
+                <option>Afrikaans</option>
+                <option>Arabic</option>
+                <option>Armenian</option>
+                <option>Belarusian</option>
+                <option>Bulgarian</option>
+                <option>Catalan</option>
+            </datalist>
+
+            <p> <pre>site or domain:                           <input type="text" name="as_sitesearch" size="80" ></pre> </p>
+            
+            <p> <pre>term appearing:                         <input id="lists" name="as_occt" list="anywhere in the page" placeholder="anywhere in the page" size="80"></pre> </p>
+            <datalist id="anywhere in the page">
+                <option>anywhere in the page</option>
+                <option>in the title of the page</option>
+                <option>in the text of the page</option>
+                <option>in the URL of the page</option>
+                <option>in links of the page</option>
+            </datalist>
+
+            <p> <pre><a href="https://support.google.com/websearch/community?hl=en"  >SafeSearch:</a>                               <input id="lists" name="safe" list="safesearch" placeholder="Show explicit results"  size="80"></pre> </p>
+
+            <datalist id="safesearch">                <option>Show explicit results</option>                <option>Hide explicit results</option>
+            </datalist>
+
+            <p> <pre>file type:                                     <input id="lists" name="as_filetype" list="filetype" placeholder="any format" size="80"></pre> </p>
+            <datalist id="filetype">
+                <option>anywhere in the page</option>
+                <option>in the title of the page</option>
+                <option>in the text of the page</option>
+            </datalist>
+
+            <p> <pre><a href="https://support.google.com/websearch/answer/29508?p=ws_images_usagerights&hl=en&visit_id=637777357506108763-163170722&rd=1"  >usage rights:</a>                              <input id="lists" name="tbs" list="safesearch" placeholder="not filtered by licence"  size="80"></pre> </p>
+
+            <datalist id="safesearch">
+                <option>Show explicit results</option>
+                <option>Hide explicit results</option>
+            </datalist>
+
+            <button type="submit" id="button">Advanced Search</button>
+        </form>
+
+        <hr style="height:0.1px; opacity: 95%; border-width:0;color:gray;background-color:#3c4043; margin-top: 32px; margin-left: 37px; margin-right: 191px;"> 
+
+
+        <p>You can also...</p>
+
+        <a id="links" href="https://support.google.com/websearch/answer/2466433?visit_id=637777378973053368-161351501&p=adv_pages_similar&hl=en&rd=1">Find pages that are similar to a URL</a> <br>
+        <a id="links" href="https://support.google.com/websearch/answer/54068?p=adv_pages_visited&hl=en&visit_id=637777378973053368-161351501&rd=1">Search pages that you've visited</a><br>
+        <a id="links" href="https://support.google.com/websearch/answer/2466433?visit_id=637777378973053368-161351501&p=adv_operators&hl=en&rd=1">Use operators in the search box</a><br>
+        <a id="links" href="https://www.google.co.in/preferences?hl=en-IN">Customise your search settings</a><br>
+
+        <footer>
+            India
+            <hr style="height: 0.01em; opacity: 30%; margin-left: -50px; text-align: center; border-width:0;color:gray;background-color:#3c4043; margin-top: 12px;">
+            <pre style="margin-left: -3px; "> <a id="foo" href="https://support.google.com/websearch/?visit_id=637779501779443501-2020050113&hl=en-IN&rd=2#topic=3378866">Help</a>       <a id="foo" href="https://policies.google.com/privacy?hl=en-IN&fg=1">Privacy</a>       <a id="foo" href="https://policies.google.com/terms?hl=en-IN&fg=1">Terms</a> </pre>
+        </footer>
+
+    </body>
+
+</html>
